@@ -1,7 +1,7 @@
 site:
   name: Dra. Eugenia Vila
-  site: 'https://mandocodes1.github.io/eugenia-vila'
-  base: '/eugenia-vila/'
+  site: "https://mandocodes1.github.io/eugenia-vila"
+  base: "/eugenia-vila"
   trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: Dra. Eugenia Vila - Clínica Dental en Málaga
-    template: '%s — Dra. Eugenia Vila'
+    template: "%s — Dra. Eugenia Vila"
   description: "Clínica dental en El Palo, Málaga. Más de 30 años de experiencia en implantes dentales, cirugía oral, alineadores y odontología estética. Dentista galardonada con materiales de alta calidad y precios competitivos."
   robots:
     index: true
@@ -18,13 +18,13 @@ metadata:
   openGraph:
     site_name: Dra. Eugenia Vila
     images:
-      - url: '~/assets/images/full_body_hero.png'
+      - url: "https://placehold.co/1200x628/3b82f6/ffffff?text=Dra.+Eugenia+Vila+-+Clinica+Dental"
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@dravila'
-    site: '@dravila'
+    handle: "@dravila"
+    site: "@dravila"
     cardType: summary_large_image
 
 i18n:
@@ -38,25 +38,25 @@ apps:
 
     post:
       isEnabled: false
-      permalink: '/%slug%'
+      permalink: "/%slug%"
       robots:
         index: false
 
     list:
       isEnabled: false
-      pathname: 'blog'
+      pathname: "blog"
       robots:
         index: false
 
     category:
       isEnabled: false
-      pathname: 'category'
+      pathname: "category"
       robots:
         index: false
 
     tag:
       isEnabled: false
-      pathname: 'tag'
+      pathname: "tag"
       robots:
         index: false
 
@@ -69,4 +69,4 @@ analytics:
       id: null # Add your GA4 ID here when ready
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: "system" # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

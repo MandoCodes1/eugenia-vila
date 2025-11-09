@@ -4,20 +4,18 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 import BeforeAfterGallery from '~/components/widgets/BeforeAfterGallery.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
-import { headerDataEN, footerDataEN } from '~/navigation';
-
 const metadata = {
   title: 'Case Gallery - Dr. Eugenia Vila',
   description: 'See real transformations from our patients. Cases of dental implants, aligners and cosmetic dentistry with impressive results.',
 };
 
-// Gallery cases - using the provided example images initially
+// Gallery cases - placeholder examples until real images are added
 const cases = [
   {
     title: 'Complete Smile Transformation',
     description: 'Treatment with veneers and cosmetic bonding',
-    beforeImage: '/src/assets/images/dental_before_example.png',
-    afterImage: '/src/assets/images/dental_after_example.png',
+    beforeImage: 'https://placehold.co/600x400/e5e7eb/6b7280?text=Before',
+    afterImage: 'https://placehold.co/600x400/3b82f6/ffffff?text=After',
     beforeAlt: 'Smile before treatment',
     afterAlt: 'Smile after treatment',
   },
@@ -25,7 +23,7 @@ const cases = [
 ];
 ---
 
-<Layout metadata={metadata} headerData={headerDataEN} footerData={footerDataEN}>
+<Layout metadata={metadata}>
   <!-- Hero -->
   <Hero2
     tagline="Case Gallery"

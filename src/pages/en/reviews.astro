@@ -4,8 +4,6 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 import ReviewsGrid from '~/components/widgets/ReviewsGrid.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Stats from '~/components/widgets/Stats.astro';
-
-import { headerDataEN, footerDataEN } from '~/navigation';
 import { getAllReviews } from '~/utils/reviews';
 
 const metadata = {
@@ -18,7 +16,7 @@ const googleReviews = reviews.filter((r) => r.source === 'Google').length;
 const trustpilotReviews = reviews.filter((r) => r.source === 'Trustpilot').length;
 ---
 
-<Layout metadata={metadata} headerData={headerDataEN} footerData={footerDataEN}>
+<Layout metadata={metadata}>
   <!-- Hero -->
   <Hero2
     tagline="Patient Reviews"

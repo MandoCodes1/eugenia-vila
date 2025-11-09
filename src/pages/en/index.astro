@@ -6,8 +6,6 @@ import Content from '~/components/widgets/Content.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
-
-import { headerDataEN, footerDataEN } from '~/navigation';
 import { getFeaturedReviews } from '~/utils/reviews';
 
 const metadata = {
@@ -29,7 +27,7 @@ const testimonials = featuredReviews.map(review => ({
 }));
 ---
 
-<Layout metadata={metadata} headerData={headerDataEN} footerData={footerDataEN}>
+<Layout metadata={metadata}>
   <!-- Hero Section -->
   <Hero
     actions={[
@@ -42,7 +40,7 @@ const testimonials = featuredReviews.map(review => ({
       },
       { text: 'Learn More', href: '#about' },
     ]}
-    image={{ src: '~/assets/images/full_body_hero.png', alt: 'Dr. Eugenia Vila' }}
+    image={{ src: 'https://placehold.co/800x1000/3b82f6/ffffff?text=Dr.+Eugenia+Vila', alt: 'Dr. Eugenia Vila' }}
   >
     <Fragment slot="title">
       <span class="text-accent dark:text-white">Perfect Smiles</span> with Over
@@ -87,7 +85,7 @@ const testimonials = featuredReviews.map(review => ({
       },
     ]}
     image={{
-      src: '~/assets/images/full_body_hero.png',
+      src: 'https://placehold.co/600x800/6366f1/ffffff?text=Professional+Photo',
       alt: 'Dr. Eugenia Vila at her clinic',
     }}
   >

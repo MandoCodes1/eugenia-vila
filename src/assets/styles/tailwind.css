@@ -4,22 +4,22 @@
 
 @layer base {
   :root {
-    --aw-color-primary: #0072BB;
-    --aw-color-secondary: #0094D3;
+    --aw-color-primary: #0072bb;
+    --aw-color-secondary: #0094d3;
     --aw-color-accent: #003366;
     --aw-color-text-default: #16181a;
     --aw-color-text-muted: #475569;
     --aw-color-bg-page: #ffffff;
-    
-    --aw-font-sans: 'Inter Variable', ui-sans-serif, system-ui;
+
+    --aw-font-sans: "Inter Variable", ui-sans-serif, system-ui;
     --aw-font-serif: ui-serif, Georgia;
-    --aw-font-heading: 'Inter Variable', ui-sans-serif, system-ui;
+    --aw-font-heading: "Inter Variable", ui-sans-serif, system-ui;
   }
 
   .dark {
-    --aw-color-primary: #0094D3;
-    --aw-color-secondary: #0072BB;
-    --aw-color-accent: #4B9FD8;
+    --aw-color-primary: #0094d3;
+    --aw-color-secondary: #0072bb;
+    --aw-color-accent: #4b9fd8;
     --aw-color-text-default: #eeeff0;
     --aw-color-text-muted: #9ca3af;
     --aw-color-bg-page: #030621;

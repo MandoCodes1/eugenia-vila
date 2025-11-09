@@ -39,30 +39,30 @@ Implantologist
 Dental Art Implant Clinics, London, UK
 Sep 2022- Present
 
-  * Lead complex implant treatments and full-mouth rehabilitations, taking advantage of a fully digital workflow with CBCT imaging and intraoral scanning (3Shape & Medit).
-  * Plan and execute implant surgeries, including bone grafting, sinus lifts, and prosthetic restorations.
-  * Provide end-to-end care: initial implant assessment, surgical placement, prosthetic planning, and long-term maintenance, consistently aiming for the best functional and aesthetic results.
-  * Awarded Dentist of the Year 2024, recognised by patients and peers for outstanding clinical outcomes and patient satisfaction.
+- Lead complex implant treatments and full-mouth rehabilitations, taking advantage of a fully digital workflow with CBCT imaging and intraoral scanning (3Shape & Medit).
+- Plan and execute implant surgeries, including bone grafting, sinus lifts, and prosthetic restorations.
+- Provide end-to-end care: initial implant assessment, surgical placement, prosthetic planning, and long-term maintenance, consistently aiming for the best functional and aesthetic results.
+- Awarded Dentist of the Year 2024, recognised by patients and peers for outstanding clinical outcomes and patient satisfaction.
 
 General Dentist & Implantologist
 Clinica Dental Dra. Eugenia Vila, Málaga, Spain
 1994-Sep 2022
 
-  * Performed implant surgery and full-mouth rehabilitation, combining implants, aligner therapy, bonding, and oral surgery in complex treatment plans.
-  * Treated more than 20,000 patients, maintaining continuous full-scope private care over 28 years.
-  * Completed thousands of dental implant placements, bone grafts, periodontal treatments, extractions, restorations, cosmetic bonding, fillings, and aligner-led smile corrections.
-  * Managed day-to-day clinic operations, from patient flow and case coordination to mentoring staff and maintaining clinical standards.
-  * Built lasting patient relationships through detailed consultation, treatment clarity, and aftercare follow-up.
+- Performed implant surgery and full-mouth rehabilitation, combining implants, aligner therapy, bonding, and oral surgery in complex treatment plans.
+- Treated more than 20,000 patients, maintaining continuous full-scope private care over 28 years.
+- Completed thousands of dental implant placements, bone grafts, periodontal treatments, extractions, restorations, cosmetic bonding, fillings, and aligner-led smile corrections.
+- Managed day-to-day clinic operations, from patient flow and case coordination to mentoring staff and maintaining clinical standards.
+- Built lasting patient relationships through detailed consultation, treatment clarity, and aftercare follow-up.
 
 ## SKILLS
 
-  * Dental Implants
-  * Oral Surgery
-  * Aligners
-  * Cosmetic Dentistry
-  * Prosthetics
-  * Bonding
-  * Digital Tools: CBCT, 3Shape, Medit, CareStack, DentalPlus
+- Dental Implants
+- Oral Surgery
+- Aligners
+- Cosmetic Dentistry
+- Prosthetics
+- Bonding
+- Digital Tools: CBCT, 3Shape, Medit, CareStack, DentalPlus
 
 ## LICENSES
 
@@ -75,13 +75,13 @@ Dental Art Implant Clinic
 
 ## PROFESSIONAL MEMBERSHIPS
 
-  * Royal College of Surgeons Ireland (RCSI) Affiliate since 2021
-  * Colegio Oficial de Dentistas de Málaga Member since 1994
+- Royal College of Surgeons Ireland (RCSI) Affiliate since 2021
+- Colegio Oficial de Dentistas de Málaga Member since 1994
 
 ## LANGUAGES
 
-  * English
-  * Spanish
+- English
+- Spanish
 
 ## PROFESSIONAL DEVELOPMENT & COURSES
 
@@ -129,9 +129,9 @@ Dental Association Barcelona, Spain
 
 ## PERSONAL LIFE/HOBBIES
 
-  * Family is my biggest priority in life. I have two sons, and I love spending time together.
-  * I love playing tennis, travelling with my family, cooking, and living a sporty lifestyle (swimming, cycling, walking/jogging).
-  * I'm passionate about healthy food.
+- Family is my biggest priority in life. I have two sons, and I love spending time together.
+- I love playing tennis, travelling with my family, cooking, and living a sporty lifestyle (swimming, cycling, walking/jogging).
+- I'm passionate about healthy food.
 
 ## REFERENCES
 

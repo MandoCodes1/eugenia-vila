@@ -58,16 +58,19 @@ This website showcases the services of Dr. Eugenia Vila, an award-winning dentis
 ## 🛠️ Getting Started
 
 1. **Install dependencies**:
+
    ```bash
    npm install
    ```
 
 2. **Start development server**:
+
    ```bash
    npm run dev
    ```
 
 3. **Build for production**:
+
    ```bash
    npm run build
    ```
@@ -80,6 +83,7 @@ This website showcases the services of Dr. Eugenia Vila, an award-winning dentis
 ## 🌍 Internationalization
 
 The website supports Spanish (default) and English:
+
 - Spanish pages: `/` (root)
 - English pages: `/en/*`
 
@@ -88,12 +92,14 @@ The language switcher in the header allows users to toggle between languages.
 ## 📱 Contact Integration
 
 The website uses WhatsApp as the primary contact method:
+
 - Spanish: `https://wa.me/34679975580?text=Hola,%20me%20gustaría%20reservar%20una%20cita`
 - English: `https://wa.me/34679975580?text=Hello,%20I%20would%20like%20to%20book%20an%20appointment`
 
 ## 🎨 Color Scheme
 
 Australian Open inspired color palette:
+
 - Primary Blue: `#0072BB`
 - Light Blue: `#0094D3`
 - Dark Blue: `#003366`
@@ -102,11 +108,12 @@ Australian Open inspired color palette:
 ## 📊 Analytics
 
 Google Analytics can be configured in `src/config.yaml`:
+
 ```yaml
 analytics:
   vendors:
     googleAnalytics:
-      id: "G-XXXXXXXXXX"  # Add your GA4 ID here
+      id: "G-XXXXXXXXXX" # Add your GA4 ID here
 ```
 
 ## 🚀 Deployment
@@ -126,18 +133,22 @@ analytics:
 ## 📝 Content Updates
 
 ### Adding Reviews
+
 Edit `src/reviews-data.ts` to add new patient reviews.
 
 ### Adding Before/After Cases
+
 1. Add images to `src/assets/images/`
 2. Update the `cases` array in `src/pages/galeria.astro` and `src/pages/en/gallery.astro`
 
 ### Updating Services
+
 Modify `src/pages/servicios.astro` and `src/pages/en/services.astro`
 
 ## 👩‍⚕️ About Dr. Eugenia Vila
 
 Dr. Eugenia Vila García is a highly qualified dentist with over 30 years of clinical experience:
+
 - Master's in Dental Implants (UIC Barcelona)
 - Master's in Aesthetic Medicine (University of Córdoba)
 - Dentist of the Year 2024

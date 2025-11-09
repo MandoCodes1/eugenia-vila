@@ -5,15 +5,13 @@ import Features3 from '~/components/widgets/Features3.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
-import { headerDataEN, footerDataEN } from '~/navigation';
-
 const metadata = {
   title: 'Services - Dr. Eugenia Vila',
   description: 'Specialized dental services: dental implants, oral surgery, aligners and cosmetic dentistry. Cutting-edge technology and high-quality materials.',
 };
 ---
 
-<Layout metadata={metadata} headerData={headerDataEN} footerData={footerDataEN}>
+<Layout metadata={metadata}>
   <!-- Hero -->
   <Hero2
     tagline="Our Services"
@@ -59,7 +57,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/dental_after_example.png',
+      src: 'https://placehold.co/600x400/3b82f6/ffffff?text=Dental+Implants',
       alt: 'Dental implants',
     }}
   >
@@ -107,7 +105,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/full_body_hero.png',
+      src: 'https://placehold.co/600x400/6366f1/ffffff?text=Oral+Surgery',
       alt: 'Oral surgery',
     }}
   >
@@ -155,7 +153,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/dental_before_example.png',
+      src: 'https://placehold.co/600x400/8b5cf6/ffffff?text=Aligners',
       alt: 'Aligner treatment',
     }}
   >
@@ -203,7 +201,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/dental_after_example.png',
+      src: 'https://placehold.co/600x400/ec4899/ffffff?text=Cosmetic+Dentistry',
       alt: 'Cosmetic dentistry',
     }}
   >

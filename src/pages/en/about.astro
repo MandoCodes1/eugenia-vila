@@ -6,21 +6,19 @@ import Timeline from '~/components/ui/Timeline.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
-import { headerDataEN, footerDataEN } from '~/navigation';
-
 const metadata = {
   title: 'About - Dr. Eugenia Vila',
   description: 'Meet Dr. Eugenia Vila. Over 30 years of experience in dentistry, specializing in dental implants and cosmetic dentistry. Dentist of the Year 2024.',
 };
 ---
 
-<Layout metadata={metadata} headerData={headerDataEN} footerData={footerDataEN}>
+<Layout metadata={metadata}>
   <!-- Hero -->
   <Hero2
     tagline="About Me"
     title="Dr. Eugenia Vila García"
     subtitle="Highly qualified Dentist with over 30 years of clinical experience. Master's in Dental Implants from UIC Barcelona and a Master's in Aesthetics from the University of Córdoba, with a special interest in Oral Surgery and Aligner Treatment."
-    image={{ src: '~/assets/images/full_body_hero.png', alt: 'Dr. Eugenia Vila' }}
+    image={{ src: 'https://placehold.co/800x1000/3b82f6/ffffff?text=Dr.+Eugenia+Vila', alt: 'Dr. Eugenia Vila' }}
   />
 
   <!-- Professional Overview -->
@@ -49,7 +47,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/full_body_hero.png',
+      src: 'https://placehold.co/600x800/6366f1/ffffff?text=Professional+Experience',
       alt: 'Dr. Eugenia Vila at her clinic',
     }}
   >

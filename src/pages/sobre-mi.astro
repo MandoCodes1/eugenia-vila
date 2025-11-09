@@ -6,21 +6,19 @@ import Timeline from '~/components/ui/Timeline.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
-import { headerData, footerData } from '~/navigation';
-
 const metadata = {
   title: 'Sobre Mí - Dra. Eugenia Vila',
   description: 'Conozca a la Dra. Eugenia Vila. Más de 30 años de experiencia en odontología, con especialización en implantes dentales y estética dental. Dentista del Año 2024.',
 };
 ---
 
-<Layout metadata={metadata} headerData={headerData} footerData={footerData}>
+<Layout metadata={metadata}>
   <!-- Hero -->
   <Hero2
     tagline="Sobre Mí"
     title="Dra. Eugenia Vila García"
     subtitle="Dentista altamente cualificada con más de 30 años de experiencia clínica. Máster en Implantes Dentales por la UIC Barcelona y Máster en Estética por la Universidad de Córdoba, con especial interés en Cirugía Oral y Tratamiento con Alineadores."
-    image={{ src: '~/assets/images/full_body_hero.png', alt: 'Dra. Eugenia Vila' }}
+    image={{ src: 'https://placehold.co/800x1000/3b82f6/ffffff?text=Dra.+Eugenia+Vila', alt: 'Dra. Eugenia Vila' }}
   />
 
   <!-- Professional Overview -->
@@ -49,7 +47,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/full_body_hero.png',
+      src: 'https://placehold.co/600x800/6366f1/ffffff?text=Professional+Experience',
       alt: 'Dra. Eugenia Vila en su clínica',
     }}
   >

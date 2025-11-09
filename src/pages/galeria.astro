@@ -4,20 +4,18 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 import BeforeAfterGallery from '~/components/widgets/BeforeAfterGallery.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
-import { headerData, footerData } from '~/navigation';
-
 const metadata = {
   title: 'Galería de Casos - Dra. Eugenia Vila',
   description: 'Ve las transformaciones reales de nuestros pacientes. Casos de implantes dentales, alineadores y odontología estética con resultados impresionantes.',
 };
 
-// Gallery cases - using the provided example images initially
+// Gallery cases - placeholder examples until real images are added
 const cases = [
   {
     title: 'Transformación Completa de Sonrisa',
     description: 'Tratamiento con carillas y bonding estético',
-    beforeImage: '/src/assets/images/dental_before_example.png',
-    afterImage: '/src/assets/images/dental_after_example.png',
+    beforeImage: 'https://placehold.co/600x400/e5e7eb/6b7280?text=Antes',
+    afterImage: 'https://placehold.co/600x400/3b82f6/ffffff?text=Despu%C3%A9s',
     beforeAlt: 'Sonrisa antes del tratamiento',
     afterAlt: 'Sonrisa después del tratamiento',
   },
@@ -25,7 +23,7 @@ const cases = [
 ];
 ---
 
-<Layout metadata={metadata} headerData={headerData} footerData={footerData}>
+<Layout metadata={metadata}>
   <!-- Hero -->
   <Hero2
     tagline="Galería de Casos"

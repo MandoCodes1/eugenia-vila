@@ -1,11 +1,8 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
-import Contact from '~/components/widgets/Contact.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features3 from '~/components/widgets/Features3.astro';
-
-import { headerData, footerData } from '~/navigation';
 
 const metadata = {
   title: 'Contacto - Dra. Eugenia Vila',
@@ -13,7 +10,7 @@ const metadata = {
 };
 ---
 
-<Layout metadata={metadata} headerData={headerData} footerData={footerData}>
+<Layout metadata={metadata}>
   <!-- Hero -->
   <Hero2
     tagline="Contacto"

@@ -5,15 +5,13 @@ import Features3 from '~/components/widgets/Features3.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
-import { headerData, footerData } from '~/navigation';
-
 const metadata = {
   title: 'Servicios - Dra. Eugenia Vila',
   description: 'Servicios dentales especializados: implantes dentales, cirugía oral, alineadores y odontología estética. Tecnología de vanguardia y materiales de alta calidad.',
 };
 ---
 
-<Layout metadata={metadata} headerData={headerData} footerData={footerData}>
+<Layout metadata={metadata}>
   <!-- Hero -->
   <Hero2
     tagline="Nuestros Servicios"
@@ -59,7 +57,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/dental_after_example.png',
+      src: 'https://placehold.co/600x400/3b82f6/ffffff?text=Implantes+Dentales',
       alt: 'Implantes dentales',
     }}
   >
@@ -108,7 +106,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/full_body_hero.png',
+      src: 'https://placehold.co/600x400/6366f1/ffffff?text=Cirugia+Oral',
       alt: 'Cirugía oral',
     }}
   >
@@ -156,7 +154,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/dental_before_example.png',
+      src: 'https://placehold.co/600x400/8b5cf6/ffffff?text=Alineadores',
       alt: 'Tratamiento con alineadores',
     }}
   >
@@ -204,7 +202,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: '~/assets/images/dental_after_example.png',
+      src: 'https://placehold.co/600x400/ec4899/ffffff?text=Odontologia+Estetica',
       alt: 'Odontología estética',
     }}
   >
